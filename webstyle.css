@@ -590,7 +590,6 @@ nav li a:hover { opacity: 0.6; }
     background-size: cover;
     animation: none;
     min-height: 60vw;
-    line-height: 8vw;
   }
 
   .searchbar { font-size: 3.5vw; padding: 2vw 3vw; width: 65%; }
