@@ -584,12 +584,12 @@ nav li a:hover { opacity: 0.6; }
   nav.open { display: flex; }
   nav li a { font-size: 4vw; }
 
-  .titlescreentext { line-height: 8vw; padding: 0 5vw; }
+  .titlescreentext { line-height: 16vw; padding: 0 5vw; }
   .titlescreen {
     background-attachment: scroll;
     background-size: cover;
     animation: none;
-    min-height: 40vw;
+    min-height: 60vw;
     line-height: 8vw;
   }
 
