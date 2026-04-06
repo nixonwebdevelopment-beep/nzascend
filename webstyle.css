@@ -556,7 +556,7 @@ nav li a:hover { opacity: 0.6; }
 @media (max-width: 768px) {
   body { padding-top: 14vw; }
 
-  h1 { font-size: 16vw; }
+  h1 { font-size: 13vw; }
   h2 { font-size: 10vw; }
   h3 { font-size: 4.5vw; }
   p  { font-size: 3.5vw; }
@@ -591,6 +591,7 @@ nav li a:hover { opacity: 0.6; }
     background-size: cover;
     animation: none;
     min-height: 60vw;
+    padding: 0 5vw;
   }
 
   .searchbar { font-size: 3.5vw; padding: 2vw 3vw; width: 65%; }
