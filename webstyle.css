@@ -11,7 +11,6 @@ body {
   padding-top: 4.5vw;
   height: 100%;
   overflow-x: hidden;
-  max-width: 100%;
 }
 
 html::-webkit-scrollbar {
@@ -30,7 +29,7 @@ html {
   right: 0;
   height: 0;
   width: 5px;
-  background-color: #6C6C6C;
+  background-color: #0892d0;
   z-index: 9999;
   box-shadow: 0 0 10px grey, 0 0 20px grey;
   transition: height 0.1s ease;
@@ -38,12 +37,12 @@ html {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #0892d0;
   transition: opacity 0.2s;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline #0892d0;
 }
 
 h1 { font-size: 10vw; }
@@ -174,6 +173,26 @@ header {
   color: #262626;
 }
 
+footer {
+	width: 100%;
+	background-color: white;
+	padding: 0.5vw;
+	box-shadow: 0 0 10px grey, 0 0 20px grey;
+	text-align: left;
+	align-items: center;
+	word-spacing: 1vw;
+}
+
+.footertext {
+	font-size: 1vw;
+	text-align: center;
+	height: 1vw;
+}
+
+footer img {
+	height: 1vw;
+}
+
 nav {
   display: flex;
   gap: 2vw;
@@ -184,7 +203,6 @@ nav {
 
 nav li a {
   font-size: 1.1vw;
-  color: #262626;
   text-decoration: none;
   cursor: pointer;
   transition: opacity 0.2s;
@@ -385,7 +403,7 @@ nav li a:hover { opacity: 0.6; }
 
 .shop-price {
   font-size: 1.5vw;
-  color: #262626;
+  color: #0892d0;
 }
 
 .shop-shadow {
@@ -556,9 +574,9 @@ nav li a:hover { opacity: 0.6; }
 @media (max-width: 768px) {
   body { padding-top: 14vw; }
 
-  h1 { font-size: 13vw; }
+  h1 { font-size: 16vw; }
   h2 { font-size: 10vw; }
-  h3 { font-size: 4.5vw; }
+  h3 { font-size: 4.5vw; }	
   p  { font-size: 3.5vw; }
   
   .shop-nav { top: 14vw; padding: 3vw 0; gap: 6vw; }
@@ -585,13 +603,11 @@ nav li a:hover { opacity: 0.6; }
   nav.open { display: flex; }
   nav li a { font-size: 4vw; }
 
-  .titlescreentext { line-height: 16vw; padding: 0 5vw; }
+  .titlescreentext { line-height: 8vw; padding: 0 5vw; }
   .titlescreen {
     background-attachment: scroll;
     background-size: cover;
     animation: none;
-    min-height: 60vw;
-    padding: 0 5vw;
   }
 
   .searchbar { font-size: 3.5vw; padding: 2vw 3vw; width: 65%; }
