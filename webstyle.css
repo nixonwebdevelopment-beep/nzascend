@@ -579,8 +579,8 @@ nav li a:hover { opacity: 0.6; }
   h3 { font-size: 4.5vw; }	
   p  { font-size: 3.5vw; }
   
-  .shop-nav { top: 14vw; padding: 3vw 0; gap: 6vw; max-width: 90%;}
-  .shop-nav-link { font-size: 4vw; }
+  .shop-nav { top: 14vw; padding: 3vw 0; gap: 6vw;}
+  .shop-nav-link { font-size: 4vw; max-width: 90%;}
   .shop-nav-divider { height: 4vw; }
   .header-logo { font-size: 5vw; }
   .nav-toggle { display: block; }
