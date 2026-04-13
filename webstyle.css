@@ -586,6 +586,7 @@ nav li a:hover { opacity: 0.6; }
   .header-logo { font-size: 5vw; }
   .nav-toggle { display: block; }
   .search-no-result { font-size: 4vw; }
+  #progress-bar { box-shadow: none; }
 
   nav {
     display: none;
