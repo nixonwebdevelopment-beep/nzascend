@@ -290,7 +290,8 @@ nav li a:hover {
 }
 
 .searchbar::placeholder {
-  color: rgba(38,38,38,0.45);
+  color: #0892d0;
+  opacity: 0.4;
 }
 
 .searchbtn {
