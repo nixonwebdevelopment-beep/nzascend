@@ -707,7 +707,6 @@ footer {
 .footer-icon img {
   height: 1.1vw;
   width: auto;
-  filter: brightness(0) invert(1);
   opacity: 0.65;
 }
 
