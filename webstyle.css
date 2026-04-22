@@ -326,7 +326,7 @@ nav li a:hover {
 
 .section3 {
   background-color: white;
-  padding: 4vw 6vw;
+  padding: 1vw 1vw;
   box-shadow: 0 0 10px grey, 0 0 20px grey;
 }
 
@@ -580,7 +580,7 @@ nav li a:hover {
 }
 
 .shop-nav {
-  background: white;
+  background: #111111;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -593,7 +593,7 @@ nav li a:hover {
 
 .shop-nav-link {
   font-size: 1.5vw;
-  color: #262626;
+  color: white;
   text-decoration: none;
   letter-spacing: 0.2vw;
   transition: opacity 0.2s;
@@ -607,9 +607,28 @@ nav li a:hover {
 .shop-nav-divider {
   width: 2px;
   height: 1.5vw;
+  background: #0892d0;
+}
+
+.shop-section-label {
+  display: flex;
+  align-items: center;
+  gap: 1.5vw;
+  margin: 2vw 0;
+}
+
+.shop-label-line {
+  flex: 1;
+  height: 1px;
   background: #262626;
 }
 
+.shop-label-text {
+  font-size: 2vw;
+  color: #262626;
+  white-space: nowrap;
+  letter-spacing: 0.3vw;
+}
 footer {
   width: 100%;
   background-color: #111111;
@@ -1014,6 +1033,7 @@ footer {
   .section2 { padding: 6vw 4vw; }
   .section3 { padding: 6vw 4vw; }
   .section3shadow { padding: 4vw; }
+  .shop-label-text { font-size: 5vw; }
 
 .ladder-item img {
   width: 85vw;
